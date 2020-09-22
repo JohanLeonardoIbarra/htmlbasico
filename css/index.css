@@ -1,0 +1,62 @@
+.navbar
+{
+    background-color: mediumpurple;
+}
+
+ul>li
+{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-color: slateblue;
+    background-color: mediumslateblue;
+}
+
+h1
+{
+    text-align: center;
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+img{
+    width: 100%;
+}
+
+ul>li>a{
+    color: aliceblue;
+}
+
+@media screen and (max-width: 400px){
+div>p:hover
+{
+    background-image: url(https://i.imgur.com/xwQzRkv.gif);
+}
+}
+
+@media screen and (min-width: 500px)
+{
+    img
+    {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    div>p
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    div>h2
+    {
+        text-align: center;
+    }
+
+    nav
+    {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+}
